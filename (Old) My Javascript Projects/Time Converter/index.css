@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+  background-image: url("https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+  padding-left: 40px;
+}
+
+.heading {
+  font-size: 46px;
+  font-family: "Open Sans";
+  color: brown;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.sub-title {
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: #6f5234;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #6f5234;
+  font-weight: bold;
+}
+
+.button {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #000000;
+  border-radius: 4px;
+  height: 35px;
+  width: 160px;
+  margin-top: 20px;
+}
+
+.error-text {
+  font-family: "Open Sans";
+  color: white;
+  font-size: 12px;
+}
+
+.seconds-text {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f5f7fa;
+  border-radius: 6px;
+  width: 160px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}

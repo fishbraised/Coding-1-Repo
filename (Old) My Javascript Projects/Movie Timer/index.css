@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px;
+}
+
+.img {
+  width: 700px;
+}
+
+.heading {
+  color: #1a6aa2;
+}
+
+.tagline {
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #102a42;
+  letter-spacing: 5px;
+}
+
+.desc {
+  color: #829ab0;
+}
+
+.time-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.time-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin: 0px 20px;
+  background: #102a42;
+}
+
+.time-value {
+  margin: 0px;
+  color: white;
+}
+
+.time-title {
+  margin: 4px;
+  color: white;
+}

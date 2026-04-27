@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light dark;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+}

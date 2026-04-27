@@ -1,0 +1,66 @@
+# REDUX FLOW -
+
+BUTTON CLICK
+|
+|
+DISPATCH ACTION
+|
+|
+{type: cart/addToCart, payload: product1}
+|
+|
+Redux Store
+|
+| - Looks at "type: cart/addToCart"
+|- addToCart(StateOfCartSlice, {type, payload})
+|
+CART REDUCER
+|
+| - Update the the cart state (Ex: add product to state)
+|
+Global Store State is updated
+|
+|
+Components which use the Global state will get new state|
+|
+|
+UI re-renders with updated state data.
+
+
+# REDUX THUNK FLOW -
+
+Products Component (useEffect)
+|
+|
+dispatch(fetchProducts()) 
+|
+|
+Thunk function runs
+|
+| --> dispatch(products/fetch/pending)
+|      |
+|      Store calls the extraReducers 
+|      |
+|      builder.addCase(fetchProducts.pending) ---> status = "loading"
+|
+API call fetch happens...
+|
+|
+|
+API SUCCESS --> dispatch(products/fetch/fulfilled)
+|               |
+|               Store calls the extraReducers 
+|               |
+|               builder.addCase(fetchProducts.fulfilled) ---> data = API DATA, status = "success"
+API ERROR -->   dispatch(products/fetch/rejected)
+                |
+                Store calls the extraReducers 
+                |
+                builder.addCase(fetchProducts.rejected) ---> status = "failure"
+
+
+Summary - 
+* Thunk acts as middleman / middleware
+* It first fires `pending`, then API call, then either `fulfilled` or `rejected`. 
+* `extraReducers` listen for those and update the state accordingly. 
+* Finally components read the updated state from the Global store with `useSelector()` and render the UI.

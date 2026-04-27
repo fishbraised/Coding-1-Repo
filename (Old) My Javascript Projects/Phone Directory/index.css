@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Merriweather+Sans:wght@300&family=Merriweather:wght@300&family=Noto+Serif&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto+Mono:wght@300&family=Roboto:wght@300&family=Varela+Round&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Merriweather Sans";
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  height: 100vh;
+  background: url("https://github.com/AhmadAlshahawii/PhoneBook/blob/master/images/backgrounds-blank-blue-953214.jpg?raw=true");
+}
+
+.content-container {
+  display: flex;
+  width: 91%;
+  height: 95%;
+  padding: 40px 30px;
+  border-radius: 8px;
+  background: rgba(24, 26, 24, 0.5);
+}
+
+.phone-book-heading {
+  display: inline;
+  padding: 0px 5px 0px 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.book-icon {
+  font-size: 28px;
+  color: white;
+}
+
+.phone-book-input {
+  display: block;
+  width: 450px;
+  height: 38px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.add-contact-heading {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.add-button {
+  width: 450px;
+  height: 38px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  color: white;
+  background: #19a7ce;
+  cursor: pointer;
+}
+
+.contact-container {
+  margin: 45px 0px 0px 35px;
+}
+
+.contact-heading-container {
+  display: flex;
+  margin-bottom: -14px;
+}
+
+.contact-heading {
+  padding: 0px 160px 0px 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.line {
+  width: 100%;
+}
+
+.credit-heading {
+  padding-top: 7px;
+  margin: 0px;
+  font-size: 14px;
+  color: white;
+}
+
+.contact-info-container {
+  padding: 0px;
+}
+
+.contact-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0px solid #19a7ce;
+  border-left-width: 8px;
+  border-radius: 4px;
+  margin-bottom: 18px;
+  background: white;
+}
+
+.contact-text {
+  width: 30%;
+  color: black;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.error-msg {
+  font-family: "Bree Serif";
+  font-weight: bold;
+  font-size: 32px;
+  color: #19a7ce;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+
+.error-img {
+  width: 400px;
+  margin-left: 20%;
+}

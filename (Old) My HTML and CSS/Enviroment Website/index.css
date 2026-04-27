@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Great+Vibes&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+#banner {
+    background-image: url(images/banner.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    margin: -8px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.white-text-container {
+    color: white;
+    text-align: center;
+    margin: 150px 0px 0px 0px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin: 5px 5px;
+    height: 50px;
+    width: 195px;
+}
+
+#impactSection {
+    text-align: center;
+    background-color:rgb(201, 201, 201, 0.5)
+}
+
+.black-h1 {
+    font-family: "el messiri", sans-serif;
+    font-size: 40px;
+    font-weight: none;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.green-h3 {
+    font-family: "el messiri", sans-serif;
+    font-size: 30px;
+    color: #1eb300;
+    margin: 0px;
+    font-weight: none;
+}
+
+.showcase-section-container {
+    padding: 0px 150px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.showcase-container {
+    display: flex;
+    margin: 35px 0px;
+}
+
+.showcase-container img {
+    width: 375px;
+    border-radius: 10px;
+    margin: 0px 80px;
+}
+
+.features-heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -16px;
+}
+
+.leaf-icon {
+    font-size: 32px;
+    color: rgb(26, 196, 26);
+    padding: 9px;
+    margin-right: 10px;
+    border: 1px solid rgb(26, 196, 26);
+    border-radius: 8px;
+}
+
+.paragraph-font {
+    font-family: "el messiri", sans-serif;
+    font-size: 16px;
+}
+
+.impact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 450px;
+    height: 250px;
+    margin: 15px;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.card1 {
+    background-image: url(images/impact1.jpg);
+}
+
+.card2 {
+    background-image: url(images/impact2.jpg);
+}
+
+.card3 {
+    background-image: url(images/impact3.jpg);
+}
+
+.card4 {
+    background-image: url(images/impact4.jpg);
+}
+
+.card5 {
+    background-image: url(images/impact5.jpg);
+}
+
+.card6 {
+    background-image: url(images/impact6.jpg);
+}
+
+.card-text-container {
+    background-color: rgb(255,255,255,0.5);
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#testimonials-section {
+    text-align: center;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.testimonials-box {
+    text-align: left;
+    background-color: rgb(201, 201, 201, 0.5);
+    width: 350px;
+    height: 225px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px 3px #7fbf7f;
+    transition: transform 0.5s;
+}
+
+.testimonials-box:hover {
+    transform: translateY(-15px);
+}
+
+.testimonials-box img {
+    width: 42px;
+}
+
+.testimonial-name {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.name-styling {
+    font-family: "el messiri", sans-serif;
+}
+
+.testimonial-desc {
+    font-family: "el messiri", sans-serif;
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+.twitter-icon {
+    color: #1da1f2;
+    padding-left: 12px;
+    margin-top: 16px;
+}
+
+.small-icon {
+    width: 45px;
+    height: 45px;
+}
+
+#bottom-section {
+    height: 275px;
+    background-color: rgb(201, 201, 201, 0.5);
+}
+
+.footed-logo {
+    width: 370px;
+    position: absolute;
+    left: 35%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.bottom-heading-container {
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.spaced-out-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-words {
+    display: flex;
+    font-size: 16px;
+    font-family: "el messiri", sans-serif;
+}
+
+.bottom-icon {
+    margin: 3px 5px;
+}
+
+.black-h4 {
+    font-family: "el messiri", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bottom-text {
+    margin-top: -12px;
+}

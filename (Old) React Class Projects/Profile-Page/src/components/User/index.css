@@ -1,0 +1,26 @@
+.person-con {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.person-img {
+  border-radius: 100%;
+  width: 50px;
+}
+
+.info-con {
+  margin-left: 10px;
+}
+
+.name-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Roboto";
+}
+
+.job-heading {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: "Roboto";
+}

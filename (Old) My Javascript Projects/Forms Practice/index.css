@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color: #e0deca;
+}
+
+.content-container {
+  width: 50%;
+}
+
+header {
+  height: 160px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-image: url("images/social-fair-header.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.sub-container {
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #efead8;
+}
+
+.publishing-container {
+  border-top: 10px solid #9eb23b;
+}
+
+.publishing-header {
+  margin: 0px 0px;
+  font-family: "Merriweather";
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.publishing-desc {
+  font-family: "Merriweather";
+  font-size: 15px;
+  font-weight: 600px;
+}
+
+.gmail-container {
+  display: flex;
+  align-items: center;
+}
+
+.gmail {
+  color: #5f6368;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 700px;
+}
+
+.switch-accounts-link {
+  margin-left: 10px;
+  font-family: "Roboto";
+  font-size: 15px;
+}
+
+.field-name {
+  margin: 0px;
+  margin-bottom: 30px;
+  font-family: "Merriweather";
+  font-size: 18px;
+}
+
+.text-field {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #5f6368;
+  background-color: #efead8;
+}
+
+.radio-main-container {
+  display: flex;
+}
+
+.radio-main-container-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.radio-text {
+  margin-left: 15px;
+}
+
+.radio-button {
+  width: 15px;
+  height: 15px;
+}
+
+.radio-sub-container-2 {
+  display: flex;
+}
+
+.submit-clear-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+.submit-button {
+  width: 95px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #9eb23b;
+  color: white;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.clear-text {
+  color: #9eb23b;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.grey-small-text {
+  color: #5f6368;
+  font-family: "Roboto";
+  font-size: 12px;
+}

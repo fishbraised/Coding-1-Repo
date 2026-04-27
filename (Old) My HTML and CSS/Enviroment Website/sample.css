@@ -1,0 +1,63 @@
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 2px solid black;
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 2px solid black;
+    align-self: flex-start;
+}
+
+.box3 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border: 2px solid black;
+    align-self: flex-end;
+}
+
+.box4 {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    height: 100vh;
+}
+
+img {
+    position: static;
+    width: 300px;
+    height: 150px;
+}
+
+p {
+    width: 150px;
+    min-height: 150px;
+    max-height: 250px;
+    border: 2px solid black;
+
+}
+
+.img-sub-container {
+    
+}
+
+.img-container {
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    overflow: auto;
+}

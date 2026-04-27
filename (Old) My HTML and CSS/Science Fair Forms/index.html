@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="content-container">
+        <header>
+          <h2 id="sci-heading">Science Fair<br />Registration Form</h2>
+        </header>
+
+        <div class="personal-container">
+          <p class="personal-title">Personal Details</p>
+          <form class="form-container">
+            <label class="field-name">Name *</label>
+            <input class="text-field" type="text" placeholder="Enter Name" />
+            <label class="field-name">Email *</label>
+            <input class="text-field" type="email" placeholder="Enter Email" />
+            <label class="field-name">Phone Number *</label>
+            <input
+              class="text-field"
+              type="tel"
+              placeholder="Enter Phone Number"
+            />
+
+            <label class="field-name">Gender</label>
+            <input type="radio" id="male" name="gender" />
+            <label class="roboto-text" for="male">Male</label>
+            <input type="radio" id="female" name="gender" />
+            <label class="roboto-text" for="female">Female</label>
+            <input type="radio" id="others" name="gender" />
+            <label class="roboto-text" for="others">Others</label>
+            <br />
+            <br />
+            <div>
+              <label class="field-name top-space">Date of Birth *</label>
+              <input class="text-field" type="date" />
+            </div>
+          </form>
+        </div>
+
+        <div class="personal-container">
+          <p class="personal-title">Events</p>
+          <form class="form-container">
+            <label class="field-name">
+              Check the event You wish to participate in:
+            </label>
+            <br />
+            <input type="checkbox" id="robotics" />
+            <label class="roboto-text" for="robotics">Robotics</label>
+
+            <input type="checkbox" id="exhibition" />
+            <label class="roboto-text" for="exhibition">Exhibition</label>
+
+            <input type="checkbox" id="quiz" />
+            <label class="roboto-text" for="quiz">Quiz</label>
+            <br />
+            <br />
+            <div class="">
+              <input type="checkbox" id="ideathon" />
+              <label class="roboto-text" for="ideathon">Ideathon</label>
+
+              <input type="checkbox" id="codingChallenge" />
+              <label class="roboto-text" for="codingChallenge"
+                >Coding Challenge</label
+              >
+            </div>
+          </form>
+        </div>
+
+        <div class="personal-container">
+          <p class="personal-title">School Details</p>
+          <form class="form-container">
+            <label class="field-name">Class *</label>
+            <select class="text-field select-field">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+            </select>
+            <br />
+            <label class="field-name">School Address</label>
+            <input
+              class="text-field"
+              type="text"
+              placeholder="Enter School Address"
+            />
+          </form>
+        </div>
+
+        <div class="personal-container">
+          <p class="personal-title">Project Description</p>
+          <form class="form-container">
+            <label class="roboto-text"
+              >In 100 words or more give a brief about your project *</label
+            >
+            <input
+              class="desc-field"
+              type="text"
+              placeholder="Enter Description"
+            />
+            <br />
+            <br />
+            <label class="field-name">Upload Project Presentation *</label>
+            <br />
+            <input type="file" />
+          </form>
+        </div>
+
+        <button class="send-button" onclick="changeSciHeading()">
+          Send Your Application
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

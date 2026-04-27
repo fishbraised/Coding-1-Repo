@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Open Sans";
+}
+
+.bg-container {
+  min-height: 100vh;
+  background: #131213;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-1 {
+  margin-bottom: 15px;
+  color: #f3aa4e;
+  font-size: 40px;
+  font-family: "Lobster";
+}
+
+.separator {
+  width: 130px;
+  height: 2px;
+  background: #f3aa4e;
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
+
+.filter-btn {
+  min-width: 100px;
+  padding: 5px 20px;
+  border: 1px solid #f3aa4e;
+  border-radius: 15px;
+  margin: 10px 8px 0px 8px;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: #f3aa4e;
+}
+
+hr {
+  width: 90%;
+  border-color: white;
+  margin: 40px 0px;
+}
+
+.menu-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px 30px;
+  width: 90vw;
+}
+
+.menu-item {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 0px 20px;
+}
+
+.food-img {
+  height: 150px;
+  width: 100%;
+  border: 4px solid #f3aa4e;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.food-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dotted white;
+}
+
+.food-heading {
+  margin-top: 0px;
+  color: white;
+}
+
+.price-heading {
+  margin-top: 0px;
+  color: #f3aa4e;
+}
+
+.food-desc {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.review-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.review-item {
+  width: 60%;
+  text-align: center;
+  padding: 24px 32px;
+  border-radius: 16px;
+  margin-top: 40px;
+  background-image: url(https://media.istockphoto.com/id/1295530809/photo/simple-bright-white-background-with-white-to-light-gray-ombr%C3%A9-in-the-corners.jpg?b=1&s=170667a&w=0&k=20&c=v3NQsr8qbOiZm0eQSAXxQLO_zyu_V5vRMOOw3NxBeJw=);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.review-img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.title-2 {
+  margin-bottom: 12px;
+  color: white;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.space-capitalize {
+  text-transform: capitalize;
+  letter-spacing: 4px;
+}
+
+.review-job {
+  color: #782305;
+}
+
+.review-desc {
+  color: #782305;
+}
+
+.arrow-icon {
+  margin: 0px 10px;
+  color: #f3aa4e;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.suprise-button {
+  padding: 4px 8px;
+  border: 2px solid #323f4b;
+  border-radius: 50px;
+  margin-top: 10px;
+  color: #323f4b;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.greet-card-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  background: url("https://res.cloudinary.com/dsf2gec5l/image/upload/v1676971075/WebDev/Session%20-%2022/Diwali_v661l9.jpg");
+  background-size: cover;
+}
+
+.greet {
+  color: #d7a17f;
+  font-family: "DM Sans";
+  font-weight: bold;
+}
+
+.heading {
+  color: #ececdf;
+  font-family: "Playfair Display";
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.greet-text-container {
+  text-align: center;
+  height: 80vh;
+}
+
+.greet-text {
+  color: #dfb48f;
+  font-family: "Roboto";
+  font-size: 24px;
+}

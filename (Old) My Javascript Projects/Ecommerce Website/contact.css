@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.header-container {
+  background-image: linear-gradient(rgb(213, 207, 207), #fcc3c3);
+}
+
+.spark-img {
+  width: 120px;
+}
+
+.menu-container {
+  list-style-type: none;
+}
+
+.menu-container li {
+  margin-right: 20px;
+  font-size: 16px;
+  color: #a71d1d;
+}
+
+.red-button {
+  margin: 20px 20px;
+  padding: 8px 64px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #a71d1d;
+}
+
+.small-container {
+  height: 90vh;
+  background-image: url("https://img.freepik.com/free-photo/young-adults-using-smartphones-as-they-are-walking-outdoors_53876-20471.jpg?size=626&ext=jpg&ga=GA1.2.788558042.1676803740&semt=ais");
+  background-size: cover;
+  background-position: center;
+}
+
+.smaller-container {
+  border-radius: 10px;
+  width: 45%;
+  height: 75%;
+  padding: 10px 20px;
+  background: rgb(255, 255, 255, 0.6);
+}
+
+.dark-heading {
+  margin: 12px 0px 0px 28px;
+  color: #343232;
+  font-weight: bold;
+}
+
+.light-text {
+  color: #8a8a8a;
+  font-size: 16px;
+}
+
+.text-input {
+  width: 90%;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 100px;
+  background-color: white;
+}
+
+.text-margin-bottom {
+  margin-bottom: 40px;
+}
+
+.footer-container {
+  padding: 60px 20px 30px 20px;
+  color: #8a8a8a;
+  background-color: #343232;
+}
+
+.footer-heading {
+  margin: 0px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-text {
+  margin: 22px 0px 0px 0px;
+  font-size: 15px;
+}
+
+.footer-img {
+  width: 50px;
+  margin: 30px 30px 30px 0px;
+}
+
+.footer-img2 {
+  width: 100px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.remove-margin {
+  margin: 0px;
+}
+
+.big-seperator {
+  width: 98%;
+  background-color: lightgrey;
+}

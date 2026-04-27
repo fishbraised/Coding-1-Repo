@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Sans&family=Merriweather+Sans:wght@300&family=Merriweather:wght@300&family=Noto+Serif&family=Open+Sans:wght@300&family=Playfair+Display&family=Poppins:wght@300&family=Roboto&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@300&family=Varela+Round&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.main-con {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: purple;
+  font-family: "Roboto";
+  text-decoration: underline;
+}
+
+.profile-con {
+  padding: 0px;
+  list-style-type: none;
+}

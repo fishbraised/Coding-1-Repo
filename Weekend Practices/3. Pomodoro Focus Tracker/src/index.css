@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  --monochrome-1-color: #252525;
+  --monochrome-2-color: #2a2a2a;
+  --monochrome-3-color: #373737;
+  --monochrome-4-color: #b8b8b8;
+  --monochrome-5-color: #fafafa;
+  --primary-color: #01f380;
+  --secondary-color: #ff3b45;
+}

@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.header-container {
+  margin-bottom: 60px;
+  background-image: linear-gradient(rgb(213, 207, 207), #fcc3c3);
+}
+
+.spark-img {
+  width: 120px;
+}
+
+.menu-container {
+  list-style-type: none;
+}
+
+.menu-container li {
+  margin-right: 20px;
+  font-size: 16px;
+  color: #a71d1d;
+}
+
+.sale-container {
+  padding: 30px 120px;
+}
+
+.sale-sub-container {
+  width: 50%;
+}
+
+.sale-heading {
+  font-family: "Bree Serif";
+  font-size: 50px;
+  font-weight: bold;
+  color: #a71d1d;
+}
+
+.sale-desc {
+  font-size: 16px;
+  color: #555555;
+}
+
+.sale-img {
+  width: 250px;
+}
+
+.red-button {
+  align-self: flex-start;
+  padding: 8px 32px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #a71d1d;
+}
+
+.small-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small-separator {
+  margin: 40px 0px 0px 0px;
+  width: 80px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #555555;
+}
+
+.category-title {
+  text-align: center;
+  margin: 8px 0px 40px 0px;
+  font-weight: 800;
+  color: #a71d1d;
+}
+
+.img-main-container {
+  margin-bottom: 40px;
+}
+
+.img-sub-container {
+  margin: 0px 15px;
+  width: 220px;
+}
+
+.product-img {
+  width: 100%;
+  height: 64%;
+  margin-bottom: 10px;
+}
+
+.product-name {
+  margin: 2px 0px;
+  font-size: 18px;
+  color: #a71d1d;
+}
+
+.rating-container {
+  color: #a71d1d;
+}
+
+.product-price {
+  font-size: 15px;
+  color: #555555;
+}
+
+.offer-container {
+  padding: 20px 70px;
+  background-color: #a8a4a4;
+}
+
+.watches-img {
+  width: 400px;
+}
+
+.offer-sub-container {
+  width: 40%;
+}
+
+.offer-text {
+  margin: 0px 0px 5px 0px;
+  font-size: 16px;
+  color: #555555;
+}
+
+.offer-heading {
+  font-size: 33px;
+  font-weight: bold;
+  color: black;
+  text-shadow: 0px 0px 1px black;
+}
+
+.offer-desc {
+  margin-bottom: 32px;
+  font-size: 14px;
+  color: #555555;
+}
+
+.testimonial-container {
+  margin-top: 100px;
+}
+
+.testimonial-card {
+  text-align: center;
+  width: 28%;
+  padding: 40px 20px;
+  box-shadow: 0px 0px 16px lightgray;
+}
+
+.testimonial-text {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #555555;
+}
+
+.round-img {
+  margin: 20px 0px 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.testimonial-name {
+  font-size: 17px;
+  font-weight: bold;
+  color: #555555;
+}
+
+.brand-container {
+  margin: 100px 0px;
+}
+
+.brand-sub-container {
+  width: 75%;
+}
+
+.brand-img {
+  width: 130px;
+}
+
+.footer-container {
+  padding: 60px 20px 30px 20px;
+  color: #8a8a8a;
+  background-color: #343232;
+}
+.footer-heading {
+  margin: 0px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-text {
+  margin: 22px 0px 0px 0px;
+  font-size: 15px;
+}
+
+.footer-img {
+  width: 50px;
+  margin: 30px 30px 30px 0px;
+}
+
+.footer-img2 {
+  width: 100px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.remove-margin {
+  margin: 0px;
+}
+
+.big-seperator {
+  width: 98%;
+  background-color: lightgrey;
+}

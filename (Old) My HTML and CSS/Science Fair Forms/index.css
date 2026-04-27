@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f4fbff;
+}
+
+.content-container {
+  width: 70%;
+}
+
+header {
+  height: 140px;
+  border-radius: 15px;
+  padding-top: 30px;
+  padding-left: 24px;
+  font-family: "DM Sans";
+  font-size: 18px;
+  color: white;
+  background-image: url("https://res.cloudinary.com/dkoqbt4pc/image/upload/v1674644819/Image20230125190257_l83t3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.personal-container {
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px lightgrey;
+}
+
+.personal-title {
+  padding: 10px 20px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-bottom: 0px;
+  font-family: "DM Sans";
+  background-color: #bff4ff;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.field-name {
+  display: block;
+  font-family: "DM Sans";
+}
+
+.text-field {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "DM sans";
+}
+
+.roboto-text {
+  font-family: "DM Sans";
+}
+
+.select-field {
+  width: 150px;
+}
+
+.desc-field {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-left: 5px;
+  font-family: "DM sans";
+}
+
+.send-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 0px 0px 5px #0693f9;
+  margin: 20px 0px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: white;
+  background: #0693f9;
+  position: relative;
+  left: 40%;
+}

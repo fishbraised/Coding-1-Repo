@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/eb13f2544c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="bg-container">
+      <div class="content-container">
+        <div>
+          <p class="phone-book-heading">Phone Book</p>
+          <i class="fa-solid fa-address-book book-icon"></i>
+          <input
+            class="phone-book-input"
+            id="searchNameInput"
+            type="text"
+            placeholder="Search"
+          />
+          <input
+            class="phone-book-input"
+            id="searchEmailInput"
+            type="text"
+            placeholder="Search"
+          />
+
+          <p class="add-contact-heading">Add New Contact</p>
+          <input
+            class="phone-book-input"
+            id="nameInput"
+            type="text"
+            placeholder="Add name"
+          />
+          <input
+            class="phone-book-input"
+            id="phoneInput"
+            type="text"
+            placeholder="Add phone"
+          />
+          <input
+            class="phone-book-input"
+            id="emailInput"
+            type="text"
+            placeholder="Add email"
+          />
+          <button class="add-button" id="addButton">Add</button>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-heading-container">
+            <p class="contact-heading">Name</p>
+            <p class="contact-heading">Phone</p>
+            <p class="contact-heading">E-mail</p>
+          </div>
+          <hr class="line" />
+
+          <ul class="contact-info-container" id="contactInfoContainer"></ul>
+        </div>
+      </div>
+      <p class="credit-heading">Lewis Lye 2023.All rights reserved</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

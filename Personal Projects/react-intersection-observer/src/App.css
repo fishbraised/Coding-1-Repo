@@ -1,0 +1,29 @@
+.main-container {
+  min-height: 100vh;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 50px;
+  border: 2px solid green;
+  background-color: black;
+}
+
+.box > p {
+  color: white;
+  font-size: 40px;
+}
+
+.animateLightenPage {
+  animation-duration: 5s;
+  animation-name: animate-lighten-page;
+}
+
+@keyframes animate-lighten-page {
+  100% {
+    background-color: gray;
+  }
+}

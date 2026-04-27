@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/eb13f2544c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="bg-container">
+      <section>
+        <h1 class="todos-heading remove-margin">Todos</h1>
+        <h1 class="create-task-heading remove-margin">
+          Create <span class="create-task-heading-subpart">Task</span>
+        </h1>
+        <input
+          class="create-task-input"
+          id="createTaskInput"
+          type="text"
+          placeholder="What needs to be done?"
+        />
+
+        <select class="tags-dropdown" id="tagsDropdownInput">
+          <option>Health</option>
+          <option>Education</option>
+          <option>Entertainment</option>
+          <option>Sports</option>
+          <option>Travel</option>
+          <option>Others</option>
+        </select>
+
+        <br />
+
+        <button class="button" id="addButton">Add</button>
+
+        <section class="tags-con">
+          <h1 class="items-heading">
+            My <span class="items-heading-subpart">Tasks</span>
+          </h1>
+
+          <div class="tag-buttons-container">
+            <button class="filter-btn" id="Health">Health</button>
+            <button class="filter-btn" id="Education">Education</button>
+            <button class="filter-btn" id="Entertainment">Entertainment</button>
+            <button class="filter-btn" id="Sports">Sports</button>
+            <button class="filter-btn" id="Travel">Travel</button>
+            <button class="filter-btn" id="Others">Others</button>
+          </div>
+        </section>
+
+        <ul class="items-list" id="itemsList"></ul>
+        <button class="button" id="saveButton">Save</button>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

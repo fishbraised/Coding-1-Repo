@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Merriweather:wght@300&family=Noto+Serif&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto+Mono:wght@300&family=Roboto:wght@300&family=Varela+Round&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  margin: 0px;
+}
+
+.remove-margin {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  padding: 50px 100px;
+  background: url("https://www.teahub.io/photos/full/44-440307_light-colors-geometric-pattern-abstract-wallpaper-abstract-wallpaper..jpg");
+  background-size: cover;
+}
+
+.todos-heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.create-task-heading {
+  font-size: 35px;
+}
+
+.create-task-heading-subpart {
+  font-weight: 500;
+}
+
+.create-task-input {
+  width: 48%;
+  height: 50px;
+  padding: 0px 20px;
+  border: none;
+  border-radius: 8px;
+  margin: 20px 3.6% 20px 0px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.tags-dropdown {
+  width: 48%;
+  height: 50px;
+  padding: 0px 20px;
+  border: none;
+  border-radius: 8px;
+  margin: 20px 0px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.button {
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: #fe5a1d;
+  cursor: pointer;
+}
+
+.items-heading {
+  font-size: 35px;
+  margin-top: 0px;
+}
+
+.items-heading-subpart {
+  font-weight: 500;
+}
+
+.items-list {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.item {
+  display: flex;
+  margin-top: 20px;
+}
+
+.item-checkbox {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.item-container {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 20px;
+  border: 0px solid #096f92;
+  border-radius: 8px;
+  border-left-width: 8px;
+  background: #e6f6ff;
+}
+
+.item-label {
+  width: 80%;
+  font-size: 16px;
+}
+
+.item-icon {
+  cursor: pointer;
+}
+
+.filter-btn {
+  min-width: 100px;
+  padding: 5px 20px;
+  border: 2px solid #fe5a1d;
+  border-radius: 15px;
+  margin: 10px 8px 0px 8px;
+  color: white;
+  font-weight: bold;
+  background: #fe5a1d;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+.filter-on {
+  background: #2e86c1;
+}
+
+.tags-container {
+  margin-bottom: 20px;
+}
+
+.tags-con {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.tags-heading {
+  margin: 0px 0px 10px 0px;
+  font-size: 35px;
+}
+
+.tag-label-el {
+  min-width: 8%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: 15px;
+  align-self: center;
+
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  background: #2e86c1;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  margin-top: -10px;
+}

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Merriweather+Sans:wght@300&family=Merriweather:wght@300&family=Noto+Serif&family=Open+Sans:wght@300&family=Playfair+Display&family=Poppins:wght@300&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@300&family=Roboto:wght@300;400&family=Varela+Round&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Roboto";
+}
+
+.bg-con {
+  min-height: 100vh;
+}
+
+.header-con {
+  text-align: center;
+  padding: 30px 20px;
+  border: 1px solid #d5cdcd;
+  margin-bottom: 30px;
+}
+
+.wiki-img {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d5cdcd;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #d5cdcd;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  margin: auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.search-list {
+  list-style-type: none;
+  padding: 0px 20px;
+}
+
+.result-title {
+  font-size: 22px;
+}
+
+.result-url {
+  color: green;
+  text-decoration: none;
+}
+
+.result-desc {
+  color: #444444;
+  font-size: 15;
+}
+
+.total-count {
+  text-align: center;
+  font-size: 28px;
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #448aff;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 40px 0px;
+  border-radius: 10px;
+  font-family: "Roboto mono";
+  background: white;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 92%;
+  padding: 40px 0px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 139, 253, 0.25);
+}
+
+.timer {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0381bb;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+
+.button {
+  width: 120px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  margin: 40px 0px 0px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.button1 {
+  background: #205e94;
+}
+
+.button2 {
+  background: #d23332;
+}
+
+.button3 {
+  background: #20b380;
+}
