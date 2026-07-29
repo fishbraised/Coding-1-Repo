@@ -1,0 +1,11 @@
+GET http://localhost:3000/
+###
+GET http://localhost:3000/about
+###
+GET http://localhost:3000/contact
+###
+
+GET http://localhost:3001/time
+###
+
+GET http://localhost:3002/greetings
