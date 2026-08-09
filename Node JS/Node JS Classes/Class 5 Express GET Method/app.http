@@ -9,3 +9,25 @@ GET http://localhost:3001/time
 ###
 
 GET http://localhost:3002/greetings
+###
+
+GET http://localhost:3003/api/users
+###
+GET http://localhost:3003/api/startups
+###
+
+
+GET http://localhost:3004/api/startups
+###
+GET http://localhost:3004/api/startups?country=USA
+###
+GET http://localhost:3004/api/startups?country=USA&industry=AI
+###
+
+GET http://localhost:3004/api/startups?industry=renewable%20energy&country=germany&has_mvp=true
+###
+GET http://localhost:3004/api/startups?industry=renewable%20energy&country=germany&has_mvp=false
+###
+GET http://localhost:3004/api/startups?continent=asia&is_seeking_funding=true&has_mvp=true
+###
+
