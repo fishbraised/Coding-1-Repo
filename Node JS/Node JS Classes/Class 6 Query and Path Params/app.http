@@ -1,0 +1,23 @@
+GET http://localhost:3005/api/crypto/btc
+###
+
+
+GET http://localhost:3005/api/metals/gold
+###
+GET http://localhost:3005/api/crypto-name/eth
+###
+
+
+GET http://localhost:3006/api/country/india
+###
+GET http://localhost:3006/api/continent/europe
+###
+GET http://localhost:3006/api/industry/ai
+###
+
+
+GET http://localhost:3006/api/name/TechNova AI
+###
+GET http://localhost:3006/api/has_mvp/false
+###
+
