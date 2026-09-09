@@ -29,6 +29,11 @@ app.get("/api/:field/:term", (request, response) => {
         "Search field not allowed. Please use only 'country', 'continent', 'industry'",
     });
     return;
+
+    // return response.status(400).json({
+    //   message:
+    //     "Search field not allowed. Please use only 'country', 'continent', 'industry'",
+    // });
   }
 
   let data = startups.filter(

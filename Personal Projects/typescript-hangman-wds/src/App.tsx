@@ -4,6 +4,8 @@ import HangmanDrawing from "./components/HangmanDrawing";
 import HangmanWord from "./components/HangmanWord";
 import Keyboard from "./components/Keyboard";
 
+const TIMER_DURATION = 20;
+
 const getWord = () => {
   return words[Math.floor(Math.random() * words.length)];
 };
@@ -11,12 +13,14 @@ const getWord = () => {
 const App = () => {
   const [wordToGuess, setWordToGuess] = useState<string>(() => getWord());
   const [guessedLetters, setGuessedLetters] = useState<string[]>([]);
+  const [timeRemaining, setTimeRemaining] = useState<number>(TIMER_DURATION);
+  const [isTimeUp, setIsTimeUp] = useState<boolean>(false);
 
   const incorrectLetters = guessedLetters.filter(
     (letter) => !wordToGuess.includes(letter),
   );
 
-  const isLoser = incorrectLetters.length >= 6;
+  const isLoser = incorrectLetters.length >= 6 || isTimeUp;
   const isWinner = wordToGuess
     .split("")
     .every((letter) => guessedLetters.includes(letter));
@@ -26,9 +30,27 @@ const App = () => {
       if (guessedLetters.includes(letter) || isWinner || isLoser) return;
 
       setGuessedLetters((currentLetters) => [...currentLetters, letter]);
+      setTimeRemaining(TIMER_DURATION);
     },
     [guessedLetters, isWinner, isLoser],
   );
+
+  useEffect(() => {
+    if (isWinner || isLoser) return;
+
+    const timer = window.setInterval(() => {
+      setTimeRemaining((currentTime) => {
+        if (currentTime <= 1) {
+          setIsTimeUp(true);
+          return 0;
+        }
+
+        return currentTime - 1;
+      });
+    }, 1000);
+
+    return () => window.clearInterval(timer);
+  }, [isWinner, isLoser]);
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -54,6 +76,7 @@ const App = () => {
       e.preventDefault();
       setGuessedLetters([]);
       setWordToGuess(getWord());
+      setTimeRemaining(TIMER_DURATION);
     };
 
     document.addEventListener("keypress", handler);
@@ -68,6 +91,9 @@ const App = () => {
       <div className="text-center text-[2rem]">
         {isWinner && "Winner! - Refresh to try again"}
         {isLoser && "Nice Try - Refresh to try again"}
+      </div>
+      <div className="text-center text-[2rem]">
+        {!isWinner && !isLoser && `Time Remaining: ${timeRemaining}s`}
       </div>
       <div className="-mt-18 flex min-h-screen w-screen flex-col items-center gap-x-5 md:flex-row md:items-stretch lg:px-15">
         <div className="flex scale-70 flex-col md:w-[40%]">
